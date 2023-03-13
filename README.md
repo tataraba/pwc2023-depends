@@ -30,10 +30,13 @@ Find out why embracing proper dependency management can help your project’s pr
 <p>pinned with library<br>versions</p>
 <p>beside your venv<br>folder</p>
 
+### Python Resources
+
 - [Python Packaging Authority (PyPA)](https://packaging.python.org/)
 - [Python Packing Index (PyPI)](https://pypi.org)
+- Requirements files serve as a list of items to be installed by pip. There is actually a specification for this. Read about it on the [pip documentation site](https://pip.pypa.io/en/stable/reference/requirements-file-format/).
 
-Requirements files serve as a list of items to be installed by pip. There is actually a specification for this. Read about it on the [pip documentation site](https://pip.pypa.io/en/stable/reference/requirements-file-format/).
+### Some Tools
 
 - [pipdeptree](https://github.com/tox-dev/pipdeptree)
   - pipdeptree is a command line utility for displaying the installed python packages in form of a dependency tree.
@@ -56,6 +59,8 @@ Where do virtual environments come from? Bret Cannon [wrote a great blog post](h
 Incidentally, he has also [written about pyproject.toml](https://snarky.ca/what-the-heck-is-pyproject-toml/) and what it is for.
 
 With pipx, you can install and run python applications in isolated environments. It's very useful if you have CLI applications that you use on all your projects. Instead of installing them every single time in each of those environments, you can isolate them with pipx. See more: https://pypa.github.io/pipx/
+
+### PEP
 
 Python Enhancement Proposals (PEP)
 - [What is a PEP?](https://peps.python.org/pep-0001/#what-is-a-pep)
