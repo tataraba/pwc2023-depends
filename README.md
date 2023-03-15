@@ -16,30 +16,40 @@ Find out why embracing proper dependency management can help your project’s pr
 
 ### Notes
 
+#### Great Poem
 [William Carlos Williams](https://www.poetryfoundation.org/poets/william-carlos-williams)
 
+<blockquote>
 <p>so much depends<br>upon</p>
 <p>a red wheel<br>barrow</p>
 <p>glazed with rain<br>water</p>
 <p>beside the white<br>chickens</p>
+</blockquote>
 
+#### Copycat Poem
 [Poet By Night (aka Python By Night)](https://www.pythonbynight.com)
 
+<blockquote>
 <p>so much depends<br>upon</p>
 <p>your requirements.txt<br>file</p>
 <p>pinned with library<br>versions</p>
 <p>beside your venv<br>folder</p>
+</blockquote>
 
-### Python Resources
+#### Python Resources
 
 - [Python Packaging Authority (PyPA)](https://packaging.python.org/)
 - [Python Packing Index (PyPI)](https://pypi.org)
 - Requirements files serve as a list of items to be installed by pip. There is actually a specification for this. Read about it on the [pip documentation site](https://pip.pypa.io/en/stable/reference/requirements-file-format/).
 
-### Some Tools
+#### Some Tools
+
+Keep track of dependencies:
 
 - [pipdeptree](https://github.com/tox-dev/pipdeptree)
   - pipdeptree is a command line utility for displaying the installed python packages in form of a dependency tree.
+- [piptools](https://pypi.org/project/pip-tools/)
+  - A set of command line tools to help you keep your pip-based packages fresh, even when you’ve pinned them. You do pin them, right? (In building your Python application and its dependencies for production, you want to make sure that your builds are predictable and deterministic.)
 
 Some package managers:
 
@@ -58,11 +68,14 @@ Where do virtual environments come from? Bret Cannon [wrote a great blog post](h
 
 Incidentally, he has also [written about pyproject.toml](https://snarky.ca/what-the-heck-is-pyproject-toml/) and what it is for.
 
-With pipx, you can install and run python applications in isolated environments. It's very useful if you have CLI applications that you use on all your projects. Instead of installing them every single time in each of those environments, you can isolate them with pipx. See more: https://pypa.github.io/pipx/
+With pipx, you can install and run python applications in isolated environments. It's very useful if you have CLI applications that you use on all your projects. Instead of installing them every single time in each of those environments, you can isolate them with pipx.
 
-### PEP
+> See more: [https://pypa.github.io/pipx/](https://pypa.github.io/pipx/)
 
-Python Enhancement Proposals (PEP)
+#### PEP
+
+**Python Enhancement Proposals (PEP)**
+
 - [What is a PEP?](https://peps.python.org/pep-0001/#what-is-a-pep)
 - [PEP 517](https://peps.python.org/pep-0517/) – A build-system independent format for source trees
 - [PEP 518](https://peps.python.org/pep-0518/) – Specifying Minimum Build System Requirements for Python Projects
@@ -70,21 +83,21 @@ Python Enhancement Proposals (PEP)
 - [PEP 621](https://peps.python.org/pep-0621/) – Storing project metadata in pyproject.toml
 - [PEP 582](https://peps.python.org/pep-0582/) – Python local packages directory
 
-### Other Resources
+#### Other Resources
 
-[Talk Python (Michael Kennedy) recently had Ofek Lev on the show](https://www.youtube.com/watch?v=gcgMyRfE8a4). He is the creator of [Hatch](https://hatch.pypa.io/latest/blog/2022/10/08/hatch-v160/). This is a good introduction to the tool. I highly recommend watching!
+> [Talk Python (Michael Kennedy) recently had **Ofek Lev** on the show](https://www.youtube.com/watch?v=gcgMyRfE8a4). He is the creator of [Hatch](https://hatch.pypa.io/latest/blog/2022/10/08/hatch-v160/). This is a good introduction to the tool. I highly recommend watching!
 
-Pamela Anderson writes about [how she manages her Python dependencies for web projects](http://blog.pamelafox.org/2023/02/managing-python-dependency-versions-for.html).
+> **Pamela Anderson** writes about [how she manages her Python dependencies for web projects](http://blog.pamelafox.org/2023/02/managing-python-dependency-versions-for.html).
 
-Brett Cannon also talks about [classifying virtual environments](https://snarky.ca/classifying-python-virtual-environment-workflows/).
+> **Brett Cannon** also talks about [where virtual environments come from](https://snarky.ca/classifying-python-virtual-environment-workflows/).
 
-If you want a little bit more control over dependency management, and don't want to depend on the opinionated tools mentioned above, you could also use pip-tools. Gabriel Augendre writes about how to use [pip-tools for Python dependencies management](https://gabnotes.org/pip-tools-for-python-dependencies-management/).
+> If you want a little bit more control over dependency management, and don't want to depend on the opinionated tools mentioned above, you could also use pip-tools. **Gabriel Augendre** writes about how to use [pip-tools for Python dependencies management](https://gabnotes.org/pip-tools-for-python-dependencies-management/).
 
-[The Big List of Python Packaging and Distribution Tools](https://chadsmith.dev/python-packaging/) - A website that lists and describes a many, many tools around python packaging (including the ones mentioned here), maintained by Chad Smith.
+> [The Big List of Python Packaging and Distribution Tools](https://chadsmith.dev/python-packaging/) - A website that lists and describes a many, many tools around python packaging (including the ones mentioned here), maintained by **Chad Smith**.
 
-Oh, and I guess I've written about [using PDM as a dependency manager](https://www.pythonbynight.com/blog/building-decorator-for-fastapi) too!
+> Oh, and I guess I've written about [using PDM as a dependency manager](https://www.pythonbynight.com/blog/building-decorator-for-fastapi) too!
 
-### Credits
+#### Credits
 - [Red Wheel Barrow image](https://www.flickr.com/photos/number7cloud/14403838611) - Flickr
 - [William Carlos Willam](http://montagnevide.blogspot.com/2011/02/william-carlos-williams-poema-fenomeno.html) portrait
 - [Guacamole](https://unsplash.com/photos/9ND-qkGs1_8) - Unsplash
