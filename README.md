@@ -64,9 +64,8 @@ Some package managers:
 - [pdm](https://pdm.fming.dev/latest/)
   - PDM, as described, is a modern Python package and dependency manager supporting the latest PEP standards.
 
-Where do virtual environments come from? Bret Cannon [wrote a great blog post](https://snarky.ca/how-virtual-environments-work/) detailing its history in Python.
 
-Incidentally, he has also [written about pyproject.toml](https://snarky.ca/what-the-heck-is-pyproject-toml/) and what it is for.
+Brett Cannon has a [great write up about pyproject.toml](https://snarky.ca/what-the-heck-is-pyproject-toml/) and what it is for.
 
 With pipx, you can install and run python applications in isolated environments. It's very useful if you have CLI applications that you use on all your projects. Instead of installing them every single time in each of those environments, you can isolate them with pipx.
 
@@ -89,7 +88,7 @@ With pipx, you can install and run python applications in isolated environments.
 
 > **Pamela Anderson** writes about [how she manages her Python dependencies for web projects](http://blog.pamelafox.org/2023/02/managing-python-dependency-versions-for.html).
 
-> **Brett Cannon** also talks about [where virtual environments come from](https://snarky.ca/classifying-python-virtual-environment-workflows/).
+> **Brett Cannon** also wrote about [where virtual environments come from](https://snarky.ca/classifying-python-virtual-environment-workflows/).
 
 > If you want a little bit more control over dependency management, and don't want to depend on the opinionated tools mentioned above, you could also use pip-tools. **Gabriel Augendre** writes about how to use [pip-tools for Python dependencies management](https://gabnotes.org/pip-tools-for-python-dependencies-management/).
 
